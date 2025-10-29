@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title></title>
+  <script title="OnlineWebFonts" src="https://db.onlinewebfonts.com/animations/icons/458419.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="styles/shared.css">
+  <link rel="stylesheet" href="styles/authPage.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+  <!--Authentication(Sign up, Sign In section)-->
+  <div id="auth-section">
+    <div id="header">
+      <h1>
+        Todo Webapp
+      </h1>
+    </div>
+    <div class="auth-container">
+      <p id="auth-option-header">Sign up</p>
+      <input class="auth-info" placeholder="username eq. @heisck" type="text" name="" required>
+      <input class="auth-info" placeholder="email eg. heisck@domain.com" type="email" name="" required>
+      <input class="auth-info" type="password" placeholder="password(Double click to show password)" name="" required>
+      <button>Submit</button>
+      <p id="auth-option-footer">Have an account?<span>Sign in</span></p>
+    </div>
+    <div id="logo">
+      <img src="images/logo.jpg" alt="logo of creator">
+    </div>
+  </div>
+
+
+  <!--Todo page section-->
+  <div id="todo-page">
+    <!--This the header section of this todo system-->
+    <header class="page-header">
+      <a href=""><div class="header-primary header-logo">
+        <img class="header-logo-img header-img" src="images/logo.jpg" alt="logo of the creator">
+      </div></a>
+
+      <section class="not-logo">
+        <!--This logo below is from Webfonts feel free to check them out
+        This link is for all todos-->
+        <a class="all-todo-link not-logo-link" href="">
+          <div class="all-todo"></div>
+          <div class="icon-des">All Todos</div>
+        </a>
+      </section>
+    </header>
+
+    <!--Main section of the html file-->
+    <main>
+      <div id="welcome-div">
+        <h1 id="welcome-header">
+        </h1>
+      </div>
+
+      <div class="main-todos">
+      </div>
+      <div class="main-add-todo-btn"></div>
+    </main>
+
+
+    <footer>
+      <div class="footer-todos-count"></div>
+    </footer>
+    <!--<div>Fonts made from <a href="http://www.onlinewebfonts.com">Web Fonts</a> is licensed by CC BY 4.0</div>-->
+  </div>
+  <script type="module" src="scripts/index.js"></script>
+</body>
+</html>
+
+
