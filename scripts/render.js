@@ -19,7 +19,7 @@ export function renderAllTodoPage() {
     const renderAllTodoHTML = `
     <div  class="main-todos-div">
       <div class="main-todo">
-        <video class="main-video" src="images/list check.mp4" autoplay loop muted>
+        <video class="main-video" src="images/list check.mp4" autoplay loop muted playsinline webkit-playsinline>
         </video>
         <div>
           ${todo.task}
@@ -142,4 +142,5 @@ function counterClockwise(arr, i) {
       clockwise(arr, ++i);
     }
   }, 100)
+
 }
