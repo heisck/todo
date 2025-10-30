@@ -1,0 +1,59 @@
+@media (max-width: 875px) {
+  .main-todo div {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 715px) {
+
+  .html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 570px) {
+
+  #todo-input, #todo-date-input {
+    height: 80%;
+    font-size: 16px;
+  }
+  .main-todo-date-input button {
+    height: 80%;
+  }
+
+  .main-completed span, .main-completed button, .del-btn {
+    font-size: 0.7rem;
+  }
+
+  .html {
+    font-size: 40%;
+  }
+  .main-todos-div {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 410px) {
+  #welcome-header {
+    font-size: 2rem;
+  }
+
+  .main-completed button, .del-btn {
+    padding: 0.5rem;
+  }
+
+  .main-completed button {
+    padding: 0.3rem;
+  }
+
+  .main-completed {
+    min-width: 7rem;
+  }
+
+  .page-header {
+    height: 4rem;
+  }
+  .main-video {
+    min-width: 10%;
+  }
+}

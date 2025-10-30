@@ -1,0 +1,101 @@
+/*Styles for the sign in/sign up page*/
+/*Container housing the styles for the auth html section*/
+
+body {
+  padding-top: 3rem;
+}
+
+#auth-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  padding: 0 1rem;
+}
+
+/*Styles for the auth page*/
+.auth-container {
+  width: var(--occupy);
+  max-width: 25rem;
+  margin-top: 3rem;
+  padding: 1rem 0.5rem;
+  display:  grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+#auth-option-header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1e6eb4;
+}
+.auth-info {
+  width: var(--occupy);
+  padding: 0.5rem;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #1e6eb4;
+}
+
+.auth-info:focus {
+  outline: none;
+}
+
+.auth-container button {
+  font-size: 1rem;
+  background-color: #1e6eb4;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: white;
+  width: var(--occupy);
+}
+
+
+#auth-option-footer {
+  font-size: 1rem;
+  color: #1e6eb4;
+  font-weight: 700;
+}
+
+#auth-option-footer span {
+  margin-left: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#logo {
+  position: absolute;
+  right: 1rem;
+  width: 7rem;
+  border-radius: 3.5rem;
+}
+
+#logo img {
+  width: var(--occupy);
+  border-radius: 3.5rem;
+}
+
+@keyframes appear {
+  from {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#header {
+  width: var(--occupy);
+  display: flex;
+  justify-content: center;
+}
+#header h1 {
+  font-size: 3rem;
+  color: rgba(36, 0, 237, 0.6);
+}
