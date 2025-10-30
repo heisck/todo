@@ -51,7 +51,7 @@ function renderPage(animate) {
     <main style = "animation: ${animate};" class="auth-container">
       <p id="auth-option-header">${auth.sign}</p>
       ${auth.inputs()}
-      <a href="/todopage.html">
+      <a href="todopage.html">
         <button id="js-submit-btn">
           Submit
         </button>
@@ -78,4 +78,5 @@ function renderInOutPage() {
       renderPage(animate);
     }
   })
+
 }
